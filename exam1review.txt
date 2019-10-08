@@ -1,0 +1,51 @@
+pointers
+	new/malloc
+	stack vs heap
+	dereferencing (*)
+	declaring
+	arrays
+	address of (&)
+	delete/free
+	garbage collection/segmentation fault
+
+
+alias
+	int x = 5;
+	int& y = x;
+
+BNF- grammars
+	parse tree
+	write an EBNF
+	prove ambiguity
+	type, expected type, tree decorating
+	derivation
+
+tokens/lexemes/language/sentence/sentential form
+
+
+classes
+	inheritance
+		public/private/protected
+	polymorphism
+	virtual
+	pure virtual
+	constructor/destructor
+	friends
+	operator overload
+	templates/generics
+
+typedef
+
+printf/cout
+
+
+
+structs
+	memory size is sum of size of fields
+
+unions
+	size of biggest
+
+namespace
+
+
