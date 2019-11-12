@@ -18,5 +18,5 @@ Ex. (listrev '(1 2 3)) = (list 3 2 1)
  
 5. (4 points) Write a recursive function, listgen, which takes an integer n as its argument and returns an ordered list of the even integers (in descending order) from n down to 2. 
  
-Ex. (listgen 3) = (list 6 4 2) 
+Ex. (listgen 7) = (list 6 4 2) 
  
