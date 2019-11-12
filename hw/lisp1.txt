@@ -1,0 +1,21 @@
+1. (5 points) Write a tail-recursive version of the weird-factorial function, which is defined for positive integers as follows:  
+weird-factorial(n) = if n is even, 2*4*...*n 
+					if n is odd, 1*3*5*...*n
+ 
+2.  (5 points) Write a tail-recursive version of the integer-log function. The function integer-logb(n) is identical to the usual log function logb(n) for a number n and base b, except that  
+(i) integer-log is defined only for positive integers b, n; and  
+(ii) the result is rounded down to the nearest integer.
+ 
+ 
+3. (3 points) Write a tail-recursive function listlen to compute the length of a list  (do not use the built-in length function). 
+ 
+Ex. (listlen ‘(1 2 3 4 5)) = 5 
+ 
+4. (3 points) Write a tail-recursive function listrev that reverses a list (do not use built-in reverse function). 
+ 
+Ex. (listrev '(1 2 3)) = (list 3 2 1) 
+ 
+5. (4 points) Write a recursive function, listgen, which takes an integer n as its argument and returns an ordered list of the even integers (in descending order) from n down to 1. 
+ 
+Ex. (listgen 3) = (list 3 2 1) 
+ 
