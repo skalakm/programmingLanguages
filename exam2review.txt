@@ -1,0 +1,67 @@
+lisp/scheme/racket/dr racket
+
+car
+define
+cdr
+lambda
+	defines a function without giving a name
+	way to define simple functions easily
+	(define f (lambda (x) (+ x 2)))
+	(define (f x) (+ x 2))
+	(map (lambda (x) (+ x 2)) '(1 2 3 4 5))
+
+	(define (f x) (lambda (y) (+ x y)))
+	(define g (f 7))
+	(g 2)
+	((f 7) 2)
+
+	(define f (lambda (y) (f (+ 3 y))))
+	(define (f y) (f (+ 3 y)))
+cons
+	any two things 
+	if its an element and list, the result will be a list
+input is 
+map
+	applies one function once each to every element of a list
+	returns list of outputs from the function
+apply
+	applies a function one time to inputs
+	returns the output from the single function
+filter
+	this is the same as my-del-if
+append
+	input is TWO LISTS
+cond
+if
+else
+list?
+empty?
+list
+odd?
+even?
+eqv?
+=
++
+*
+-
+
+no let, no caaaaar
+
+tail-recursion
+
+scanning/parsing
+scanning- characters into tokens jflex
+parsing- tokens into expansions cup
+regular expressions
+	[]*+()|
+	?- 0 or 1 instances
+grammar rules 
+	EXPR := EXPR:e ADDOP:a EXPR:e2
+		{: if(a.equals("+")) RESULT = e + e2;else RESULT = e-e2; :}
+convert expansions into java code
+precedence/associative
+	a-b-c (a-b)-c or a-(b-c) associative
+	a+b*c a+(b*c) or (a+b)*c precedence
+terminals/nonterminals
+token vs lexeme
+
