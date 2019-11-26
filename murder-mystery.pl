@@ -3,7 +3,7 @@
 % a well known art dealer at the Metropolitan Club in London.
 % The murderer can be deduced from the following apparently trivial
 % clues.
-murderer(X):-hair(X, brown). % the murderer had brown hair
+murderer(X):-hair(X, brown). % if X have brown hair, X are a murderer
 
 attire(mr_holman, ring). % mr_holman had a ring
 attire(mr_pope, watch).  % mr_pope had a watch.
@@ -22,5 +22,8 @@ room(mr_holman, 12). % mr_holman was in room 12
 room(sir_raymond, 10).
 room(mr_woodley, 16).
 room(X, 14):-attire(X, watch).
+
+
+
 
 :- nl, nl, write('The game is afoot....'), nl, nl.
