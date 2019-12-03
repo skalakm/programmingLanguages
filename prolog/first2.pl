@@ -15,5 +15,5 @@ taking(noah, algo).
 
 
 studentOf(X,Y):-teaching(Y,Z),taking(X,Z).
-haveClassTogether(X,Y):-taking(X,Z),taking(Y,Z),X\=Y,Y\=jessie,X\=jessie. 
+haveClassTogether(X,Y):-taking(X,Z),taking(Y,Z),X\=Y. 
 
