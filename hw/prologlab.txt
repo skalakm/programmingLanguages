@@ -1,0 +1,18 @@
+1. (7 points) Write a Prolog program that defines a relation oddIndices(X,Y). This relation is true when X is a list and Y is a list consisting of every element of X which is at an odd index (assume index values begin at 1). That is, if X=[x1, x2, x3, x4, x5, x6, ...] then Y=[x1, x3, x5, ...]. As specific examples: oddIndices([4, 2, 7, 6], [4, 7]) is true; oddIndices([4, 2, 7, 6], [2, 6]) is false; and oddIndices([4, 2, 7, 6], [7]) is false.
+
+
+2. (7 points) Write a Prolog program that implements the predicate sublist(X,Y), which is true if X is a sublist of Y. That is, the elements of X occur consecutively in Y. For example:
+
+• The following are true: sublist([],[5,3,4,4]), sublist([3],[5,3,4,4]), sublist([3,4],[5,3,4,4]), sublist([5,3,4,4],[5,3,4,4]).
+
+• The following are false: sublist([8],[5,3,4,4]), sublist([4,3],[5,3,4,4]), sublist([4,4,4],[5,3,4,4]), sublist([5,3,4,4,4],[5,3,4,4]).
+
+You may use only the elementary built-in Prolog relations (e.g. member, length, append) studied in class, but of course you are free to define your own helper relations.
+
+
+3. (7 points) Write a Prolog relation disjointRange(L1,L2) which is true if the ranges of the lists L1, L2 are disjoint. This is defined formally as follows. You may assume L1 and L2 are lists containing integers. The ranges are disjoint if all elements of L1 are less than all elements of L2, or vice versa. Empty lists are considered to be disjoint from any other list. You may define helper relations if desired.
+
+
+4.  [7 points] Write a Prolog program for Merge sort. The predicate mergesort (L,LS) – should be true if L is the unsorted list and LS is L’s sorted list. Hints- You will have to define three predicates as follows: splitter (L,L1,L2) which will be true if every second element of L is in L1 and all other elements of L are in L2. merger (L1,L2,LN) which will be true if LN is a sorted list that results from merging two sorted lists L1 and L2. mergesort (L,LS) which is true if LS is the sorted form of L. Example: The query mergesort ([5,4,1,9], X). should return X = [1, 4, 5, 9].
+
+5. [7 points] Write a Prolog program that maintains a car inventory and allows the following operations: a. Insert a car by specifying the make and year. b. Delete all cars of a certain make. c. Check if a certain car exists in the database. d. List all cars of a specific year 
