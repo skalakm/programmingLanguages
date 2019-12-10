@@ -33,3 +33,27 @@ inorder(empty, []).
 inorder(node(L,D,R), Z):- inorder(L,LL), inorder(R, RL), append(LL, [D],Z1), append(Z1, RL, Z).
 
 isinordermytree(T, Z):- myTree(T), inorder(T, Z).
+
+%[Head|Tail]
+
+remove(X, [X|Y], Y).
+remove( X, [XL|YL], [XL|YL2]):- remove(X, YL, YL2).
+
+max( A, B, B) :- A <= B.
+
+max( A, B, A) :- B <= A.
+% uses the order of statements, slightly dodgy 
+% demonstrates fall through 
+%  max(A, _, A).
+
+% reverse
+isReverse( [], []).
+isReverse( [X], [X]).
+isReverse( [X|Y], Z):- isReverse(Y, Y2), append(Y2,[X], Z)
+% append([4,5], [6,7], [4,5,6,7]). 
+% append([[4]], [[5]], [[4],[5]]).
+
+
+
+
+
