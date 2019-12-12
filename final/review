@@ -1,0 +1,65 @@
+everything
+
+language generalities
+	parse tree
+	bnf/ebnf
+	grammars
+	regular expressions*
+	decorating/annotating parse trees
+		expected type
+		actual type
+		synthesized vs inherited
+	scanning (lex)
+		character-> lexeme/token
+	parsing (cup)
+		tokens->parse tree
+
+c/c++
+	memory allocation/deallocation
+		malloc/new
+		free/delete
+		pointers
+		memory leak
+		dereference
+	aliases
+	classes
+		polymorphism
+			virtual
+			constructors
+			destructors
+	stack vs heap
+	buffer overflow
+		arrays dont have specified size
+		strings end with \0
+	printf
+
+lisp
+	lists
+		structure
+		diagrams
+		
+	functions
+		car, cdr, cond, if, define, cons, append, apply, empty?
+	lambda*
+	map*
+		(map zero? (0 2 3 1 4 0))
+		(#t #f #f #f #f #t)
+	filter*
+		(filter zero? (0 2 3 1 4 0))
+		(2 3 1 4)
+	tail recursion
+	apply
+		(apply * (1 2 3 4)) <=> (* 1 2 3 4)
+		24 
+
+
+prolog
+	write prolog
+	list comprehensions
+	append, member
+	unifying
+		(X, [Y, X|Z])
+		(1, [2, 1, 3]),X->1, Y->2, Z-> [3]
+	findall(X, p(X), Z) = Z is the list of all X st P(X)
+
+	precedence
