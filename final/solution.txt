@@ -1,0 +1,170 @@
+Solution to Review
+
+
+
+Question 1.
+
+
+17
+
+17
+
+11
+
+31
+
+34
+
+
+Question 2.
+
+
+?- red(11).
+
+false.
+
+
+?- bright(X).
+
+X = 3
+
+X = 39.
+
+
+?- scary(39).
+
+true.
+
+
+?- meaningless(16,39,16,4).
+
+false.
+
+Question 3.
+
+
+a. X = banana
+
+
+X = eggplant.
+
+
+b.  true.
+
+
+c. false.
+
+
+d. X = tofu
+
+X = potato
+
+e. X = tofu
+
+X = potato
+
+
+f. X = cake,
+
+Y = tofu
+
+X = cake,
+
+Y = potato
+
+X = cake,
+
+Y = tofu
+
+X = cake,
+
+Y = potato
+
+X = apple,
+
+Y = tofu
+
+X = apple,
+
+Y = potato
+
+
+g. false.
+
+ 
+
+Question 4.
+
+4
+
+32
+
+32
+
+32
+
+4
+
+8
+
+D
+
+0x7fff55a7fbb8
+
+A
+
+D
+
+2
+
+0.2
+
+C
+
+X
+
+M
+
+X
+
+M
+
+C
+
+C
+
+ 
+
+ 
+
+Question 5.
+
+30
+
+33
+
+281
+
+282
+
+34
+
+35
+
+
+
+Question 6.
+
+
+class foo
+
+class bar
+
+class foo
+
+class foo
+
+class foo
+
+
+class bar
